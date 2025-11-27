@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/bgpeach.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .about-container {
+            width: 85%;
+            max-width: 1000px;
+            margin-top: 50px;
+            padding: 20px;
+        }
+
+        .about-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .about-header h1 {
+            font-size: 2.6em;
+            color: #d31111;
+            margin-bottom: 10px;
+        }
+
+        .about-header p {
+            font-size: 1.2em;
+            color: #ffffff;
+        }
+
+        
+        .about-card {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .about-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+        }
+
+        .section-title {
+            font-size: 1.6em;
+            color: #d33232;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .about-card p {
+            font-size: 1.15em;
+            line-height: 1.7em;
+            color: #333;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 22px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            transition: opacity 0.3s;
+        }
+
+        .back-btn:hover {
+            opacity: 0.9;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="about-container">
+
+        <div class="about-header">
+            <h1>About Me</h1>
+            <p>Learn more about my journey, passion, and skills.</p>
+        </div>
+
+        
+        <div class="about-card">
+            <div class="section-title">Who I Am</div>
+            <p>
+                Hi! I'm <strong>Von Yujuan M. Laforteza</strong>, a passionate Web Developer who enjoys designing
+                clean and modern interfaces. I aim to create systems and websites that are visually appealing,
+                functional, and easy to use.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <div class="section-title">My Passion</div>
+            <p>
+                I love building digital experiences. From front-end layouts to back-end logic,
+                I enjoy exploring different parts of web development. I am always excited to learn new
+                technologies and improve my skills each day.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <div class="section-title">Skills & Interests</div>
+            <p>
+                ✔ Web Design & Development <br>
+                ✔ HTML, CSS, JavaScript <br>
+                ✔ UI / UX Aesthetics <br>
+                ✔ Responsive Layouts <br>
+                ✔ Creative Projects & Personal Branding <br>
+            </p>
+        </div>
+
+        <div class="about-card">
+            <div class="section-title">My Goal</div>
+            <p>
+                My goal is to become a full-stack developer and to create meaningful projects that
+                help people and businesses. I want to continue growing, collaborating, and building
+                beautiful digital work that inspires others.
+            </p>
+        </div>
+
+        <a href="index.html" class="back-btn">⬅ Back to Profile</a>
+
+    </div>
+
+    
+
+</body>
+</html>
