@@ -1,4 +1,6 @@
-
+/* -------------------------
+   ABOUT PAGE STYLING
+------------------------- */
 
 body {
     font-family: Arial, sans-serif;
@@ -14,7 +16,7 @@ body {
     min-height: 100vh;
 }
 
-
+/* Main card container */
 .about-container {
     width: 85%;
     max-width: 1000px;
@@ -25,7 +27,7 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-
+/* Title Section */
 .about-header {
     text-align: center;
     margin-bottom: 30px;
@@ -33,7 +35,7 @@ body {
 
 .about-header h1 {
     font-size: 2.4em;
-    color: #ffffff; 
+    color: #ffffff; /* your theme red */
     margin-bottom: 10px;
 }
 
@@ -42,23 +44,23 @@ body {
     color: #faf9f9;
 }
 
-
+/* Main text section */
 .about-content {
     font-size: 1.2em;
     line-height: 1.7em;
     color: #333;
 }
 
-
+/* Section titles inside card */
 .section-title {
     margin-top: 30px;
     margin-bottom: 10px;
     font-size: 1.6em;
-    color: #d33232; 
+    color: #d33232; /* theme red */
     font-weight: bold;
 }
 
-
+/* Back button */
 .back-btn {
     display: inline-block;
     margin-top: 30px;
@@ -74,6 +76,4 @@ body {
 .back-btn:hover {
     opacity: 0.85;
 }
-
-
 
