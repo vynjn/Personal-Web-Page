@@ -33,7 +33,7 @@ body {
 
 .about-header h1 {
     font-size: 2.4em;
-    color: #ffffff; /* your theme red */
+    color: #ffffff; 
     margin-bottom: 10px;
 }
 
@@ -54,7 +54,7 @@ body {
     margin-top: 30px;
     margin-bottom: 10px;
     font-size: 1.6em;
-    color: #d33232; /* theme red */
+    color: #d33232; 
     font-weight: bold;
 }
 
@@ -74,5 +74,6 @@ body {
 .back-btn:hover {
     opacity: 0.85;
 }
+
 
 
