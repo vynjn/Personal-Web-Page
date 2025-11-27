@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('images/bgpeach.jpg');
+    background-image: url('bgpeach.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,4 +74,5 @@ body {
 .back-btn:hover {
     opacity: 0.85;
 }
+
 
